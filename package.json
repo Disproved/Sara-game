@@ -1,0 +1,37 @@
+{
+  "name": "sara-game",
+  "version": "1.0.0",
+  "description": "Simple game for Saras chemistry class",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --colors",
+    "dev": "nodemon client/server.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Disproved/Sara-game.git"
+  },
+  "author": "Henrik Hallberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Disproved/Sara-game/issues"
+  },
+  "homepage": "https://github.com/Disproved/Sara-game#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "html-webpack-plugin": "^3.2.0",
+    "nodemon": "^1.18.4",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "webpack": "^4.19.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
+}
