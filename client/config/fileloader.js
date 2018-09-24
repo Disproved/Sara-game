@@ -1,4 +1,3 @@
-
 import { ASSETS_URL } from '.'
 
 const fileLoader = game => {

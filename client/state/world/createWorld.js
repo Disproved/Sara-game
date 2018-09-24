@@ -1,4 +1,3 @@
-
 import { WORLD_SIZE } from './../../config'
 
 const { width, height } = WORLD_SIZE

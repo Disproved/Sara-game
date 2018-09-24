@@ -1,4 +1,3 @@
-
 const playerMovementInterpolation = otherPlayers => {
   for (let id in otherPlayers) {
     let player = otherPlayers[id]
